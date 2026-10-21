@@ -4,7 +4,8 @@ Static landing page for **Curated Ink**: custom graduation caps, wedding invitat
 
 ## Files
 - `index.html` — landing page
-- `styles.css` — styles and brand tokens (colors live in `:root`)
+- `styles.css` — styles and theme colors (dark in `:root`, light in the `data-theme="light"` / `prefers-color-scheme: light` blocks)
+- `theme.js` — Light / Dark / System switch; remembers the visitor’s choice
 - `thanks.html` — shown after the inquiry form is submitted
 - `favicon.svg`
 - `netlify.toml` — Netlify config (no build step; publishes the repo root)
