@@ -127,12 +127,14 @@ p { margin: 0 0 1em; }
 /* Contact */
 .contact { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
 .form { display: grid; gap: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; }
+.form select { color-scheme: dark; }
+.form input[type="date"] { color-scheme: dark; }
 .form label { display: grid; gap: 6px; font-size: .9rem; color: var(--soft); }
-.form input, .form textarea {
+.form input, .form textarea, .form select {
   font: inherit; color: var(--text); background: var(--bg);
   border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px;
 }
-.form input:focus, .form textarea:focus { outline: none; border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(97, 216, 254, .2); }
+.form input:focus, .form textarea:focus, .form select:focus { outline: none; border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(97, 216, 254, .2); }
 .form .btn { justify-self: start; }
 
 /* Footer */
