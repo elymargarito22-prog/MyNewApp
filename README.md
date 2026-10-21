@@ -1,11 +1,15 @@
 # Curated Ink — landing page
 
-Static landing page for **Curated Ink**: custom graduation caps, wedding invitations (digital or print) and party labels. Styled after [behmn.com](https://behmn.com): dark theme, cyan accent, Mona Sans.
+Static landing page for **Curated Ink**: custom graduation caps, wedding invitations (digital or print) and party labels. Blue, beige and grey palette with Light, Dark and System themes; Mona Sans type. Responsive from 320px phones to wide desktops.
+
+See [ROADMAP.md](ROADMAP.md) for the improvement checklist.
 
 ## Files
 - `index.html` — landing page
 - `styles.css` — styles and theme colors (dark in `:root`, light in the `data-theme="light"` / `prefers-color-scheme: light` blocks)
 - `theme.js` — Light / Dark / System switch; remembers the visitor’s choice
+- `site.js` — mobile menu and footer year
+- `ROADMAP.md` — the four improvement waves, as a checklist
 - `thanks.html` — shown after the inquiry form is submitted
 - `favicon.svg`
 - `netlify.toml` — Netlify config (no build step; publishes the repo root)
