@@ -1,6 +1,6 @@
-# behmn — landing page
+# Be Human — landing page
 
-Static landing page for **behmn** (pronounced “be human”), the AI reality company. Styled after [behmn.com](https://behmn.com): dark theme, cyan accent, Mona Sans.
+Static landing page for **Be Human** ([behmn.ai](https://behmn.ai)), the AI reality company. Styled after [behmn.com](https://behmn.com): dark theme, cyan accent, Mona Sans.
 
 ## Files
 - `index.html` — landing page
